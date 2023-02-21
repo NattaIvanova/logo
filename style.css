@@ -1,1 +1,79 @@
 
+.logo{
+  width: 400px; 
+  height: 400px;
+  background: rgba(154, 166, 179, 0.521);
+  border-radius: 40%;
+  position: absolute;
+  border: 4px solid seagreen;
+ }
+ 
+ .triangle-top {
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid green;
+position: relative;
+left: 150px;
+top: 15px;
+}
+.triangle-center {
+width: 0;
+height: 0;
+border-left: 70px solid transparent;
+border-right: 70px solid transparent;
+border-bottom: 140px solid green;
+position: relative;
+left: 130px;
+top: -30px;
+}
+.triangle-bottom {
+width: 0;
+height: 0;
+border-left: 90px solid transparent;
+border-right: 90px solid transparent;
+border-bottom: 180px solid green;
+position: relative;
+left: 110px;
+top: -25%;
+}
+
+.snow1 {
+width: 120px;
+height: 65px;
+border-radius: 50%;
+background: white;
+position: relative;
+box-sizing: border-box;
+left: 60px;
+top: -140px;
+border-radius: 50% 50% 0 0 / 80% 80% 10% 10%;
+}
+.snow2 {
+  width: 120px;
+  height: 58px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  left: 130px;
+  top: -198px;
+  border-radius: 50% 50% 0 0 / 80% 80% 10% 10%;
+  }
+  .snow3 {
+    width: 120px;
+    height: 62px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    left: 220px;
+    top: -260px;
+    border-radius: 50% 50% 0 0 / 80% 80% 10% 10%;
+    }
+  .word {
+   font: 4em geogia;
+   color: rgb(13, 92, 5);
+   position: relative;
+   bottom: 328px;
+   left: 90px;
+  }
